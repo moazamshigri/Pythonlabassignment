@@ -51,9 +51,8 @@ for person in people:
 
 
 
-print("\nValues from person (Values only):")
 for person in people:
-    print(f"Values: {list(person.values())}")
+    print("Values:", person["name"], person["age"], person["city"])
 
 # print("\nKey and Values from person:")
 # for person in people:
